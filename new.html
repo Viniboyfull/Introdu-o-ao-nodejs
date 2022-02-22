@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+    
+<body>
+    <section class="vinicius">
+        <h2>What Can JavaScript Do?</h2>
+
+        <p>JavaScript can change HTML attribute values.</p>
+        
+        <p>In this case JavaScript changes the value of the src (source) attribute of an image.</p>
+        <section class="vini2">
+            <button onclick="document.getElementById('myImage').src='Sonic.png'">Get Sonic</button>
+            
+            <img id="myImage" src="SALogo.png" style="max-width: 300px">
+            
+            <button onclick="document.getElementById('myImage').src='Tails.png'">Get Tails</button>
+
+            <button onclick="document.getElementById('myImage').src='Knuckles.png'">Get Knuckles</button>
+        </section>
+    </section>
+</body>
+</html>
